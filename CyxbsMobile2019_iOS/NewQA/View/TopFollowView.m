@@ -105,7 +105,7 @@
         make.top.mas_equalTo(self.myFollowLab.mas_bottom);
         make.left.mas_equalTo(self.mas_left);
         make.right.mas_equalTo(self.mas_right);
-        make.height.mas_equalTo(SCREEN_HEIGHT * 0.1619);
+        make.height.mas_equalTo(SCREEN_WIDTH * 108/375);
     }];
 }
 
