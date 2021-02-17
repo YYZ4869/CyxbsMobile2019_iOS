@@ -5,6 +5,7 @@
 //  Created by 阿栋 on 2020/12/24.
 //  Copyright © 2020 Redrock. All rights reserved.
 //
+// 暂时用不到这个类
 
 #import "FollowGroupModel.h"
 
