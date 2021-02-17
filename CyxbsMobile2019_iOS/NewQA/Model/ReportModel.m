@@ -14,7 +14,7 @@
 - (void)ReportWithPostID:(NSNumber *)postID WithModel:(NSNumber *)model AndContent:(NSString *)str {
     HttpClient *client = [HttpClient defaultClient];
     NSDictionary *param = @{@"id":postID,@"model":model,@"content":str};
-    [client requestWithPath:@"http://localhost:8080/new/report" method:HttpRequestPost parameters:param prepareExecute:nil progress:nil success:^(NSURLSessionDataTask *task, id responseObject) {
+    [client requestWithPath:NEW_QA_REPORT method:HttpRequestPost parameters:param prepareExecute:nil progress:nil success:^(NSURLSessionDataTask *task, id responseObject) {
         self->_Block(responseObject);
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
     
